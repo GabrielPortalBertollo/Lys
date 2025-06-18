@@ -261,13 +261,17 @@ i{
   margin-top: 25px;
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  
-
 }
-
+.boxLink>li{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+.boxLink>li:hover{
+  transform: scale(1.1);
+}
 
 .link{
   border-radius: 100%;
