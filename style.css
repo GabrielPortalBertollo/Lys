@@ -266,7 +266,7 @@ i{
   justify-content: space-evenly;
 }
 .boxLink>li{
-  transition: transform 0.3s ease-in-out;
+  transition: 0.3s;
   transform: scale(1);
 }
 .boxLink>li:hover{
@@ -287,12 +287,12 @@ i{
   justify-content: center;
   text-decoration: none;
 }
-.link:nth-child(2) { animation-delay: 0.2s; }
-.link:nth-child(3) { animation-delay: 0.4s; }
-.link:nth-child(4) { animation-delay: 0.6s; }
-.link:nth-child(5) { animation-delay: 0.8s; }
-.link:nth-child(6) { animation-delay: 1s; }
-.link:nth-child(7) { animation-delay: 1.2s; }
+.boxLink>li:nth-child(2) .link { animation-delay: 0.2s; }
+.boxLink>li:nth-child(3) .link{ animation-delay: 0.4s; }
+.boxLink>li:nth-child(4) .link{ animation-delay: 0.6s; }
+.boxLink>li:nth-child(5) .link{ animation-delay: 0.8s; }
+.boxLink>li:nth-child(6) .link{ animation-delay: 1s; }
+.boxLink>li:nth-child(7) .link{ animation-delay: 1.2s; }
 @keyframes pulsar {
   0%, 100% { background-color: rgba(255, 0, 85, 0.3); }
   50% { background-color: rgba(255, 0, 85, 0.8); }
